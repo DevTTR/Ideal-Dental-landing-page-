@@ -1,0 +1,71 @@
+<!-- 
+  EJEMPLO: Card Horizontal - Oral Surgery & Surgical Care
+  
+  Copia este código donde necesites la card horizontal.
+  El CSS ya está agregado en el archivo index.html principal.
+-->
+
+<div class="ids-service oral-treatments-card" style="background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 4px 20px rgba(15, 23, 42, 0.08); transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); border: 1px solid #e2e8f0; position: relative;">
+  <div class="oral-treatments-layout" style="display: grid; grid-template-columns: minmax(320px, 40%) 1fr; gap: 0; align-items: stretch; min-height: 400px;">
+    
+    <!-- Imagen izquierda -->
+    <div class="ids-service-media" style="position: relative; overflow: hidden; background: #f1f5f9;">
+      <img src="TU-IMAGEN-AQUI.jpg" alt="Oral Surgery & Surgical Care" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+      <div style="position: absolute; inset: 0; background: linear-gradient(180deg, transparent 0%, rgba(15, 23, 42, 0.4) 100%);"></div>
+    </div>
+    
+    <!-- Contenido derecha -->
+    <div class="ids-service-content" style="padding: 2rem; display: flex; flex-direction: column; gap: 0; flex: 1;">
+      
+      <!-- Tags -->
+      <div class="ids-service-tags" style="display: flex; flex-wrap: wrap; gap: 0.35rem; align-items: center; height: auto; margin-bottom: 1rem;">
+        <span class="service-chip" style="display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.35rem 0.65rem; border-radius: 999px; font-size: 0.6875rem; font-weight: 600; background: rgba(251, 127, 42, 0.12); color: #FB7F2A; border: 1px solid rgba(251, 127, 42, 0.25);">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+          </svg>
+          Specialized Care
+        </span>
+        <span class="service-chip service-chip--outline" style="display: inline-flex; align-items: center; gap: 0.25rem; padding: 0.35rem 0.65rem; border-radius: 999px; font-size: 0.6875rem; font-weight: 600; background: rgba(59, 130, 246, 0.12); color: #2563eb; border: 1px solid rgba(59, 130, 246, 0.25);">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+          </svg>
+          Advanced Techniques
+        </span>
+      </div>
+      
+      <!-- Título -->
+      <h3 style="font-size: 1.75rem; font-weight: 800; color: #0f172a; margin: 0 0 0.875rem; line-height: 1.3;">
+        <a href="#" target="_blank" rel="noopener" style="color: inherit; text-decoration: none; transition: color 0.2s ease;">Oral Surgery & Surgical Care</a>
+      </h3>
+      
+      <!-- Descripción -->
+      <p style="color: #475569; line-height: 1.7; margin: 0 0 1.25rem; font-size: 1.0625rem;">Expert surgical procedures performed with precision and care in our state-of-the-art facility.</p>
+      
+      <!-- Lista de servicios -->
+      <ul class="ids-service-list" style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.75rem;">
+        <li style="color: #64748b; font-size: 0.875rem; display: flex; align-items: flex-start; gap: 0.625rem; line-height: 1.6;">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" style="flex-shrink: 0; margin-top: 2px;">
+            <circle cx="10" cy="10" r="9" stroke="#FB7F2A" stroke-width="1.5" opacity="0.2"/>
+            <path d="M6 10l2.5 2.5L14 7" stroke="#FB7F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Wisdom teeth extraction and complex removals</span>
+        </li>
+        <li style="color: #64748b; font-size: 0.875rem; display: flex; align-items: flex-start; gap: 0.625rem; line-height: 1.6;">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" style="flex-shrink: 0; margin-top: 2px;">
+            <circle cx="10" cy="10" r="9" stroke="#FB7F2A" stroke-width="1.5" opacity="0.2"/>
+            <path d="M6 10l2.5 2.5L14 7" stroke="#FB7F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Bone grafting and ridge preservation</span>
+        </li>
+        <li style="color: #64748b; font-size: 0.875rem; display: flex; align-items: flex-start; gap: 0.625rem; line-height: 1.6;">
+          <svg width="18" height="18" viewBox="0 0 20 20" fill="none" style="flex-shrink: 0; margin-top: 2px;">
+            <circle cx="10" cy="10" r="9" stroke="#FB7F2A" stroke-width="1.5" opacity="0.2"/>
+            <path d="M6 10l2.5 2.5L14 7" stroke="#FB7F2A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <span>Comprehensive sedation options available</span>
+        </li>
+      </ul>
+    </div>
+    
+  </div>
+</div>
